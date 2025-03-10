@@ -37,5 +37,5 @@ frontend lb-frontend
 backend lb-backend
     balance roundrobin
     option forwardfor
-    option httpchk HEAD / HTTP/1.1\r\nHost:localhost
+    option httpchk HEAD / HTTP/1.1\r\nHost:www.rachy.tech
     server web-01 44.210.127.245:80 check
