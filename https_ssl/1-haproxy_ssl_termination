@@ -38,4 +38,4 @@ backend lb-backend
     balance roundrobin
     option forwardfor
     option httpchk HEAD / HTTP/1.1\r\nHost:localhost
-    server web-01 44.210.127.24:80 check
+    server web-01 44.210.127.245:80 check
